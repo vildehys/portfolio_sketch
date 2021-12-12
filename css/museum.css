@@ -4,6 +4,12 @@
   font-family: "Lato", sans-serif;
 }
 
+.headliner {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
 .banner {
   display: flex;
   align-items: center;
@@ -35,6 +41,26 @@
   text-align: center;
 }
 
+.info {
+  margin-top: 50px;
+}
+
+.info1,
+.info2,
+.info3 {
+  margin-top: 50px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  margin-top: 15px;
+}
+
 @media (min-width: 900px) {
   .images {
     display: flex;
@@ -43,5 +69,11 @@
 
   .image {
     height: 250px;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
   }
 }
