@@ -39,7 +39,7 @@ i.fas {
 }
 
 .button {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
   font-size: medium;
   text-transform: uppercase;
@@ -47,6 +47,8 @@ i.fas {
   border: none;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .button:hover {
