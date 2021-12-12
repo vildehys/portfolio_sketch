@@ -39,11 +39,13 @@ i.fas {
 }
 
 .button {
-  margin-top: 20px;
+  margin-top: 50px;
   padding: 10px;
   font-size: medium;
   text-transform: uppercase;
   border-radius: 50px;
+  width: fit-content;
+  margin: 0 auto;
   border: none;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -65,12 +67,12 @@ h3 {
 }
 h4 {
   margin-top: 55px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 900px) {
   .projects {
     display: flex;
     justify-content: space-evenly;
-    padding: 175px;
   }
 }
