@@ -102,4 +102,10 @@ p {
     justify-content: space-evenly;
     margin-top: 50px;
   }
+
+  .info1,
+  .info2,
+  .info3 {
+    width: 30%;
+  }
 }
